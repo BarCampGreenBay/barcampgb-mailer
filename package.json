@@ -1,0 +1,16 @@
+{
+  "name": "barcampgb-mailer",
+  "version": "1.0.0",
+  "description": "Send emails to barcampgb mailing lists",
+  "main": "index.js",
+  "scripts": {
+    "send": "node index.js"
+  },
+  "author": "Chris Jaure <chrisjaure@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "mailgun-js": "^0.7.1",
+    "nomnom": "^1.8.0",
+    "rc": "^1.1.0"
+  }
+}

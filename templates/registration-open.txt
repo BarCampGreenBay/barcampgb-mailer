@@ -1,0 +1,15 @@
+Hi %recipient_name%,
+
+I thought you might be interested to know that BarCamp Green Bay 2015 is just around the corner!
+
+This year it will be at NWTC Corporate Conference Center on November 7th. Bring a friend!
+
+Please register at http://www.barcampgb.org/ and if you do it by October 10th, you'll get a free t-shirt.
+
+Thanks!
+
+--
+The Sentient BarCamp Green Bay Email Bot
+
+You received this message because you registered for a BarCamp Green Bay event.
+To unsubscribe, click here: %mailing_list_unsubscribe_url%
