@@ -11,7 +11,7 @@ list     List to send to
 Options:
    -s, --subject   Email subject
    -b, --body      Email body file in templates
-   -d, --dry-run   Output email instead of sending
+   -f, --force     Send the email
 ```
 
 ## Config

@@ -24,16 +24,15 @@ var opts = require('nomnom')
         help: 'Email body file in templates',
         required: true
     })
-    .option('dryRun', {
-        full: 'dry-run',
-        abbr: 'd',
-        help: 'Output email instead of sending',
+    .option('force', {
+        abbr: 'f',
+        help: 'Send the email',
         flag: true
     })
     .nocolors()
     .parse();
 
-sendEmail(opts.list, opts.subject, opts.body, opts.dryRun);
+sendEmail(opts.list, opts.subject, opts.body, !opts.force);
 
 function sendEmail (list, subject, body, dryRun) {
     var data = {
@@ -43,7 +42,10 @@ function sendEmail (list, subject, body, dryRun) {
         text: fs.readFileSync(__dirname + '/templates/' + body, 'utf-8')
     };
     console.log(data);
-    if (dryRun || !data.body || !data.subject || !list) {
+    if (!data.text) {
+        error('No email body!');
+    } 
+    if (dryRun) {
         return;
     }
     mailgun.messages().send(data, function(err, res) {
