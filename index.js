@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 var fs = require('fs');
+var domain = 'mg.barcampgb.org'
 var config = require('rc')('bcgbmailer', {
-    domain: 'barcampgb.org'
+    domain: domain
 });
 if (!config.apiKey) {
     error('No api key specified!');
@@ -36,15 +37,15 @@ sendEmail(opts.list, opts.subject, opts.body, !opts.force);
 
 function sendEmail (list, subject, body, dryRun) {
     var data = {
-        to: list + '@barcampgb.org',
-        from: 'BarCamp Green Bay <info@barcampgb.org>',
+        to: list + '@' + domain,
+        from: 'BarCamp Green Bay <info@' + domain + '>',
         subject: subject,
         text: fs.readFileSync(__dirname + '/templates/' + body, 'utf-8')
     };
     console.log(data);
     if (!data.text) {
         error('No email body!');
-    } 
+    }
     if (dryRun) {
         return;
     }
