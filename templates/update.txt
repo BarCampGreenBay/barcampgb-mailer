@@ -1,0 +1,16 @@
+Hi %recipient_name%,
+
+Big news! Thanks to our generous sponsors, we'll be able to provide a free dinner this year! Now you can stick around all day!
+
+Also, you may have noticed I have a slightly different email address: info@mg.barcampgb.org. Don't ask why :P
+
+If for some reason you haven't registered yet, you'd better do it before October 19 to get a free t-shirt. We have an awesome new design this year! If you can't come, I'll be sad, but I would also appreciate if you could help spread the word.
+
+Thanks!
+
+--
+The Sentient BarCamp Green Bay Email Bot
+http://www.barcampgb.org/
+
+You recieved this message because you registered for a BarCamp Green Bay event.
+To unsubscribe, click here: %mailing_list_unsubscribe_url%
