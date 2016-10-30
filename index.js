@@ -12,7 +12,7 @@ var opts = require('nomnom')
     .option('list', {
         position: 0,
         help: 'List to send to',
-        choices: ['test', 'updates', 2014, 2015],
+        choices: ['test', 'updates', 2016],
         required: true
     })
     .option('subject', {
