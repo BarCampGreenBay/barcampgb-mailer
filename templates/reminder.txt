@@ -1,17 +1,17 @@
 Hi %recipient_name%,
 
-BarCamp Green Bay 2015 is less than a week away!
+BarCamp Green Bay 2016 is only a week away!
 
-The opening session starts at 9am sharp so you might want to arrive a little bit earlier to sign in and grab some coffee and doughnuts.
+The opening session starts at 10am sharp so you might want to arrive a little bit earlier to sign in and grab some free snacks.
 
-If you registered before October 19, we'll have a free t-shirt waiting for you as well :)
+If you registered before October 10, we'll have a free t-shirt waiting for you as well :)
 
-Here's a handy map for Corportate Conference Center parking: https://www.nwtc.edu/NWTC/media/cted/corporate-conference-center-map.pdf
+You can park in lot F and enter through 5B. Here's a handy map: https://www.nwtc.edu/NWTC/media/cted/corporate-conference-center-map.pdf
 
 See you there!
 
 --
 The Sentient BarCamp Green Bay Email Bot
 
-You recieved this message because you registered for BarCamp Green Bay 2015.
+You recieved this message because you registered for BarCamp Green Bay 2016.
 To unsubscribe, click here: %mailing_list_unsubscribe_url%
